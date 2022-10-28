@@ -1,0 +1,114 @@
+
+.container-card{
+  position: relative;
+  align-items: center;
+  overflow: hidden;
+  display: flex;
+  flex-flow: column wrap;
+  transform: translate(-25rem);
+  margin: 2.5rem 0;
+  margin-top: -53rem;
+  max-height: 100vh;
+
+}
+
+.number-card{
+  position: absolute;
+  color: white;
+  margin-top: 9.5rem;
+  margin-left: -2rem;
+  font-size: 1.5rem;
+  letter-spacing: 5px;    
+}
+
+.card-name{
+  transform: translateY(-3.5rem);
+  margin-left: -16rem;
+  color: white;
+  font-size: 0.8rem;
+}
+
+.date-end{
+  transform: translateY(-6rem);
+  margin-left: 18rem;
+  color: white;
+  font-size: 0.8rem;
+}
+
+.backImage{
+  position: relative;
+  margin-left: 6rem;
+  margin-top: -3rem;
+}
+
+.cvc-card{
+  position: absolute;
+  transform: translateY(-9.6rem);
+  margin-left: 28rem;
+  color: white;
+}
+
+.form-container{
+  transform: translate(60rem);
+  margin-top: -30rem;
+  width: 21rem;
+}
+
+.input-title{
+  font-size: 0.8rem;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input{
+  height: 1.3rem;
+  padding: 5px;
+  outline: none;
+  border: 0.5px solid rgb(173, 171, 171);
+  border-radius: 8%;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 20rem;
+}
+
+.input-card-date,.input-cvc-number{
+  width: 4rem;
+  margin-right: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex{
+  font-size: 0.8em;
+  font-weight: 600;
+}
+
+.input-title-cvc{
+  margin-left: 6rem;
+}
+
+.Submit{
+  width: 11.5rem;
+  height: 2rem;
+  background-color: hsl(278, 68%, 11%);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 21rem;
+}
+
+.error-message{
+  color: red;
+  font-size: 0.8rem;
+}
+
+.icon{
+  justify-content: center;
+  align-items: center;
+}
+
+.thank-you{
+  font-size: 2rem;
+}
+
+.done-msg{
+  font-size: 1.5rem;
+  color: grey;
+}
